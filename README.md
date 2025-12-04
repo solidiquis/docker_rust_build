@@ -1,5 +1,7 @@
 ## No Chef
 
+Combination of dummy libs/bins that depend on arrow/data-fusion/tokio.
+
 ```
 ┌─ faster_build 
 └ 🧋 docker buildx bake --no-cache
