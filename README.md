@@ -1,6 +1,8 @@
-## No Chef
+# Docker Rust Build
 
-Combination of dummy libs/bins that depend on arrow/data-fusion/tokio.
+Combination of dummy libs/bins that depend on arrow/data-fusion/tokio to test docker build speeds.
+
+## No Chef
 
 ```
 ┌─ faster_build 
