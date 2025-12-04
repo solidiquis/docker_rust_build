@@ -1,0 +1,8 @@
+[package]
+name = "write"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+arrow = { workspace = true }
+datafusion = { workspace = true }

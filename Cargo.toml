@@ -1,0 +1,14 @@
+[workspace]
+resolver = "3"
+members = [ "csv", "csv_again","query", "runtime", "write"]
+
+[workspace.dependencies]
+datafusion = "51.0.0"
+tokio = { version = "1", features = ["full"] }
+arrow = "57.1.0"
+
+csv = { path = "csv", version = "0.1.0" }
+csv_again = { path = "csv_again", version = "0.1.0" }
+query = { path = "query", version = "0.1.0" }
+runtime = { path = "runtime", version = "0.1.0" }
+write = { path = "write", version = "0.1.0" }
